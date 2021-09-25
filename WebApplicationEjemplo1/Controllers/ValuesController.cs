@@ -21,6 +21,13 @@ namespace WebApplicationEjemplo1.Controllers
             return "value";
         }
 
+        [Route("getstatus")]
+        // GET api/values/5
+        public string GetStatus()
+        {
+            return "ok";
+        }
+
         // POST api/values
         public void Post([FromBody] string value)
         {
