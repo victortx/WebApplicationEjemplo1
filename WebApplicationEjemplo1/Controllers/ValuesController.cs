@@ -21,6 +21,12 @@ namespace WebApplicationEjemplo1.Controllers
             return "value";
         }
 
+        // GET api/values/5
+        public string GetUser(int id)
+        {
+            return "victor";
+        }
+
         [Route("getstatus")]
         // GET api/values/5
         public string GetStatus()
